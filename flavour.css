@@ -1,6 +1,6 @@
 body {
     margin: 0; /* Remove default body margin */
-    background-image: url("path/to/your/image.jpg"); /* Replace with your image path */
+    background-image: url("bgimage.png"); /* Replace with your image path */
     background-size: cover; /* Stretch image to cover entire viewport */
     background-position: center; /* Center the image */
     font-family: sans-serif; /* Set a default font family */
@@ -22,7 +22,6 @@ body {
   }
   
   nav a {
-    flex-grow: 1;
     text-decoration: none; /* Remove underline from links */
     color: inherit; /* Inherit text color from nav */
     padding: 10px;
@@ -38,8 +37,21 @@ body {
     color: #fff; /* White text color */
   }
   
-  h1 {
-    font-size: 3em; /* Adjust font size as needed */
-    margin-bottom: 20px; /* Add some space below the title */
-    color: black;
+  .willow{
+    font-size: 10em; /* Adjust font size as needed */
+    /* margin-bottom: 20px; */ /* Add some space below the title */
+    color: white;
+    font-family: Baskerville;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  }
+
+  .willowContainer{
+    position: relative; /* Establish a positioning context for the child element (title) */
+    display: flex; /* Arrange title horizontally (optional) */
+    justify-content: center; /* Center the title horizontally */
+    align-items: center; /* Center the title vertically */
+    height: 100vh; /* Set container height to viewport height */
   }
