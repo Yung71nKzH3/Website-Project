@@ -1,5 +1,39 @@
 body{
   background-color: black;
+  font-size: 16px;
+}
+
+.opener{
+  display: flex;
+  position: relative;  /* Important for relative positioning */
+  border-color: darkred;
+  border-style: double;
+}
+
+.welcomeImage{
+  width: 100%;  /* Adjust percentage value as needed */
+  height: auto;
+}
+
+.bgimagetxt{
+  position: absolute;  /* Position on top of the image */
+  top: 50%;  /* Center vertically (adjust as needed) */
+  left: 50%;  /* Center horizontally (adjust as needed) */
+  transform: translate(-50%, -50%);  /* Center based on element size */
+  color: white;  /* Adjust text color for visibility */
+  text-align: center;  /* Center text horizontally */
+  font-family: Libre Baskerville;
+  font-size: 2.5em;
+  z-index: 1;
+}
+
+.bgimagetxtOverlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
 }
 
 .navigation-ribbon {
@@ -10,9 +44,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   position: absolute;
-
   left: 0;  /* Position at the left side of the page */
 }
 
@@ -27,17 +59,32 @@ body{
   color: #ddd;
 }
 
-.container{
-  display: flex;
-  position: relative;  /* Important for relative positioning */
+.footerContent{
+  display: flex; /* Enable flexbox layout */
+  justify-content: space-between; /* Distribute elements horizontally */
+  align-items: center; /* Align elements vertically */
 }
 
-.opener{
+.footerContent a {
+  color: #fff;
+  margin-right: 10px; /* Add spacing between links */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
   border-color: darkred;
-  border-style: none double double double;
+  border-style: double;
 }
 
-.welcomeImage{
-  width: 100%;  /* Adjust percentage value as needed */
-  height: auto;
+.scrollBtn{
+  background-color: #444; /* Darker shade of gray */
+  color: #fff; /* White text */
+}
+
+.scrollBtn:hover {
+  background-color: #333; /* Darker background on hover */
+  cursor: pointer; /* Change cursor to indicate clickability */
 }
