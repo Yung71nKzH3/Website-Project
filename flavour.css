@@ -2,8 +2,42 @@ body{
   background-color: black;
 }
 
+.navigation-ribbon {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+
+  left: 0;  /* Position at the left side of the page */
+}
+
+.navigation-ribbon a {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px 20px;
+}
+
+.navigation-ribbon a:hover {
+  background-color: #222;
+  color: #ddd;
+}
+
+.container{
+  display: flex;
+  position: relative;  /* Important for relative positioning */
+}
+
+.opener{
+  border-color: darkred;
+  border-style: none double double double;
+}
+
 .welcomeImage{
   width: 100%;  /* Adjust percentage value as needed */
-  max-width: 100%;
   height: auto;
 }
