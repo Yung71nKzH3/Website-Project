@@ -1,3 +1,5 @@
+/*ZF - MAIN*/
+
 body{
   background-color: black;
   font-size: 16px;
@@ -87,4 +89,17 @@ footer {
 .scrollBtn:hover {
   background-color: #333; /* Darker background on hover */
   cursor: pointer; /* Change cursor to indicate clickability */
+}
+
+/*ZF - Socials*/
+
+.scTitleCont{
+  display: flex; /* Activate flexbox for the header */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically (optional, might not be needed) */
+}
+
+.scTitle{
+ color: white;
+ font-family: Libre Baskerville;
 }
