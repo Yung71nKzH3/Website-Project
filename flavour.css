@@ -9,7 +9,7 @@ body{
 .opener{
   max-width: 100%;
   display: flex;
-  position: relative;  /* Important for relative positioning */
+  padding-top: 45px;
   border-color: darkred;
   border-style: double;
 }
@@ -31,15 +31,6 @@ body{
   z-index: 1;
 }
 
-.bgimagetxtOverlay{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
-}
-
 .navigation-ribbon {
   background-color: #333;
   color: #fff;
@@ -52,6 +43,9 @@ body{
   left: 0;  /* Position at the left side of the page */
   border-style: none none double none;
   border-color: darkred;
+
+  top: 0; /* Position at the top of the page */
+  z-index: 10; /* Set a higher z-index to ensure it stays on top */
 }
 
 .navigation-ribbon a {
@@ -97,26 +91,16 @@ footer {
 
 /*ZF - Socials*/
 
-.scTitleCont{
-  display: flex; /* Activate flexbox for the header */
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically (optional, might not be needed) */
-}
-
-.scTitle{
- color: white;
- font-family: Libre Baskerville;
-}
-
 .scSocialPer{
   max-width: 100vw;
   border-style: double;
   border-color: darkred;
+  padding-top: 45px;
 }
 
 .scSocial{
   max-width: 100%;
-  height: 100px;
+  height: 150px;
   display: flex; /* Activate flexbox for scSocial - What allows for the seperation for more than one box in one */
 }
 
