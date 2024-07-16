@@ -1,11 +1,13 @@
 /*ZF - MAIN*/
 
 body{
+  max-width: 100vw;
   background-color: black;
   font-size: 16px;
 }
 
 .opener{
+  max-width: 100%;
   display: flex;
   position: relative;  /* Important for relative positioning */
   border-color: darkred;
@@ -48,6 +50,8 @@ body{
   align-items: center;
   position: absolute;
   left: 0;  /* Position at the left side of the page */
+  border-style: none none double none;
+  border-color: darkred;
 }
 
 .navigation-ribbon a {
@@ -102,4 +106,133 @@ footer {
 .scTitle{
  color: white;
  font-family: Libre Baskerville;
+}
+
+.scSocialPer{
+  max-width: 100vw;
+  border-style: double;
+  border-color: darkred;
+}
+
+.scSocial{
+  max-width: 100%;
+  height: 100px;
+  display: flex; /* Activate flexbox for scSocial - What allows for the seperation for more than one box in one */
+}
+
+.scAccount{
+  flex: 1; /* Allocate equal space to both containers */
+  display: flex; /* Activate flexbox for container-a and container-b */
+  align-items: center; /* Align content vertically in the center */
+  justify-content: center; /* Align content horizontally in the center */
+  opacity: 1; /* Set initial opacity to fully visible */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.scAccount:hover{
+  opacity: 0.5; /* Opacity value for dimmed image on hover */
+}
+
+.scAccount1, .scAccount2{
+  flex: 1; /* Allocate equal space to both containers */
+  width: 50%; /* Alternative approach for explicit 50% width */
+  display: flex; /* Activate flexbox for container-a and container-b */
+  align-items: center; /* Align content vertically in the center */
+  justify-content: center; /* Align content horizontally in the center */
+  opacity: 1; /* Set initial opacity to fully visible */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.scAccount1:hover, .scAccount2:hover{
+  opacity: 0.5; /* Opacity value for dimmed image on hover */
+}
+
+.scAccount img, .scAccount1 img, .scAccount2 img{
+  margin-right: 5px; /* Adjust spacing as needed */
+}
+
+.scAccounTxt{
+  color: white;
+  font-family: Libre Baskerville;
+  text-decoration: none;
+}
+
+#YT1{
+  background-image: url("images/Socials/YT1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: groove;
+  border-color: red;
+}
+
+#YT2{
+  background-image: url("images/Socials/YT2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: groove;
+  border-color: red;
+}
+
+#X1{
+  background-image: url("images/Socials/X1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: groove;
+  border-color: black;
+}
+
+#X2{
+  background-image: url("images/Socials/X2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: groove;
+  border-color: black;
+}
+
+#Insta1{
+  background-image: url("images/Socials/Insta1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: groove;
+  border-color: purple;
+}
+
+#Insta2{
+  background-image: url("images/Socials/Insta2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: groove;
+  border-color: peru;
+}
+
+#Spot{
+  background-image: url("images/Socials/Spot.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: groove;
+  border-color: green;
+}
+
+#Git{
+  background-image: url("images/Socials/Git.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: groove;
+  border-color: darkgrey;
+}
+
+#Steam{
+  background-image: url("images/Socials/Steam.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: groove;
+  border-color: gray;
+}
+
+#Mast{
+  background-image: url("images/Socials/Mast.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: groove;
+  border-color: red;
 }
