@@ -9,7 +9,6 @@ body{
 .opener{
   max-width: 100%;
   display: flex;
-  padding-top: 45px;
   border-color: darkred;
   border-style: double;
 }
@@ -35,17 +34,20 @@ body{
   background-color: #333;
   color: #fff;
   width: 100%;
-  height: 50px;
+
+  height: auto; /*50px*/
+  min-height: 50px; /*Boundary for the auto*/
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
+  position: sticky;
   left: 0;  /* Position at the left side of the page */
   border-style: none none double none;
   border-color: darkred;
 
   top: 0; /* Position at the top of the page */
-  z-index: 10; /* Set a higher z-index to ensure it stays on top */
+  z-index: 1; /* Set a higher z-index to ensure it stays on top */
 }
 
 .navigation-ribbon a {
@@ -65,9 +67,11 @@ body{
   align-items: center; /* Align elements vertically */
 }
 
-.footerContent a {
+.footerContent a, .footerContent p {
   color: #fff;
   margin-right: 10px; /* Add spacing between links */
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 footer {
@@ -89,13 +93,42 @@ footer {
   cursor: pointer; /* Change cursor to indicate clickability */
 }
 
+.popup {
+  display: none; /* Initially hidden */
+  position: fixed; /* Positioned relative to the viewport */
+  z-index: 1; /* Ensure it appears on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
 /*ZF - Socials*/
 
 .scSocialPer{
   max-width: 100vw;
   border-style: double;
   border-color: darkred;
-  padding-top: 45px;
 }
 
 .scSocial{
