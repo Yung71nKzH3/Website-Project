@@ -232,21 +232,28 @@ img {vertical-align: middle;}
   justify-content: space-between; /* Add space between items */
 }
 
-.Blog{
+.Blog1, .Blog2{
   margin-top: 15px;
   display: flex; /* Use flexbox for layout */
   border-style: ridge;
   border-color: darkred;
   max-width: 1250px;
+  max-height: 140px;
 }
 
-.BlogImage {
+.BlogImage1 {
   flex: 0 0 auto; /* Set image to not grow or shrink */
   margin-right: 20px; /* Add spacing between image and text */
 }
 
+.BlogImage2{
+  flex: 0 0 auto; /* Set image to not grow or shrink */
+  margin-left: 20px; /* Add spacing between image and text */
+}
+
 .BlogText {
   flex: 1; /* Text takes up remaining space */
+  padding: 10px;
 }
 
 .BlogText p {
@@ -254,6 +261,69 @@ img {vertical-align: middle;}
   font-family: Libre Baskerville;
 }
 
+/*ZF - About*/
+
+.AboutBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.AboutContainer{
+  background-color: #808080;
+  max-width: 50%;
+  max-height: fit-content;
+  border-style: ridge;
+  border-color: darkred;
+}
+
+.AboutSection{
+  margin: 50px;
+}
+
+.AboutIntro{
+  background-color: #333;
+  max-width: 100%;
+  height: min-content;
+
+  display: flex; /* Use flexbox for layout */
+
+  border-style: groove;
+  border-color: darkred;
+}
+
+.AboutIntroTitle{
+  font-family: Libre Baskerville;
+  text-decoration: underline;
+  color: white;
+}
+
+.AboutIntro img{
+  flex: 0 0 auto; /* Set image to not grow or shrink */
+  margin-right: 20px; /* Add spacing between image and text */
+}
+
+.AboutIntro h1{
+  flex: 1; /* Text takes up remaining space */
+  padding: 5px;
+}
+
+.AboutMain{
+  margin-top: 30px;
+
+  background-color: #333;
+  max-width: 100%;
+  height: 100%;
+
+  border-style: groove;
+  border-color: darkred;
+}
+
+.AboutMainText{
+  margin: 8px;
+}
 
 /*ZF - Socials*/
 
@@ -306,83 +376,59 @@ img {vertical-align: middle;}
   text-decoration: none;
 }
 
-#YT1{
-  background-image: url("images/Socials/YT1.png");
+#Mast, #Steam, #Git, #Spot, #Insta1, #Insta2, #X1, #X2, #YT1, #YT2{
   background-repeat: no-repeat;
   background-size: cover;
   border-style: solid;
+}
+
+#YT1{
+  background-image: url("images/Socials/YT1.png");
   border-color: red;
 }
 
 #YT2{
   background-image: url("images/Socials/YT2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-style: solid;
   border-color: red;
 }
 
 #X1{
   background-image: url("images/Socials/X1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-style: solid;
   border-color: black;
 }
 
 #X2{
   background-image: url("images/Socials/X2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-style: solid;
   border-color: black;
 }
 
 #Insta1{
   background-image: url("images/Socials/Insta1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-style: solid;
   border-color: purple;
 }
 
 #Insta2{
   background-image: url("images/Socials/Insta2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-style: solid;
   border-color: peru;
 }
 
 #Spot{
   background-image: url("images/Socials/Spot.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-style: solid;
   border-color: green;
 }
 
 #Git{
   background-image: url("images/Socials/Git.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-style: solid;
   border-color: darkgrey;
 }
 
 #Steam{
   background-image: url("images/Socials/Steam.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-style: solid;
   border-color: gray;
 }
 
 #Mast{
   background-image: url("images/Socials/Mast.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-style: solid;
   border-color: red;
 }
 
