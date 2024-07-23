@@ -261,6 +261,45 @@ img {vertical-align: middle;}
   font-family: Libre Baskerville;
 }
 
+/*ZF - Blog - BlogFormat*/
+
+.BF-Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.BF-Foundation{
+  background-color: #808080;
+  max-width: 50%;
+  max-height: fit-content;
+  border-style: ridge;
+  border-color: darkred;
+}
+
+.BF-Content{
+  margin: 50px;
+}
+
+.BF-Title h1{
+  color: white;
+  font-family: Libre Baskerville;
+  text-decoration: underline;
+}
+
+.BF-Timestamp p{
+  color: darkgray;
+  font-family: Libre Baskerville;
+  font-size: 0.8em;
+}
+
+.BF-Blog p{
+  color: white;
+  font-family: Libre Baskerville;
+}
+
 /*ZF - About*/
 
 .AboutBox{
@@ -443,3 +482,8 @@ img {vertical-align: middle;}
 
 /*Test*/
 
+.TestTitle{
+  text-align: center;
+  color: white;
+  font-family: Libre Baskerville;
+}
