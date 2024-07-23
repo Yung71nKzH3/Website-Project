@@ -325,6 +325,15 @@ img {vertical-align: middle;}
   margin: 8px;
 }
 
+.AboutMainText h1{
+  color: white;
+  text-decoration: underline;
+}
+
+.AboutMainText p{
+  color: white;
+}
+
 /*ZF - Socials*/
 
 .scSocialPer{
