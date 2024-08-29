@@ -36,8 +36,8 @@ body{
   color: #fff;
   width: 100%;
 
-  height: auto; /*50px*/
-  min-height: 50px; /*Boundary for the auto*/
+  height: auto; /*25%px*/
+  min-height: 25%; /*Boundary for the auto*/
 
   display: flex;
   justify-content: space-between;
@@ -54,7 +54,7 @@ body{
 .navigation-ribbon a {
   text-decoration: none;
   color: inherit;
-  padding: 10px 20px;
+  padding: 0.4% 0.8%;
 }
 
 .navigation-ribbon a:hover {
@@ -70,7 +70,6 @@ body{
 
 .footerContent a, .footerContent p {
   color: #fff;
-  margin-right: 10px; /* Add spacing between links */
   text-decoration: underline;
   cursor: pointer;
 }
@@ -78,7 +77,7 @@ body{
 footer {
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding: 0.8%;
   text-align: center;
   border-color: darkred;
   border-style: double;
@@ -106,19 +105,22 @@ footer {
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
+/* EXTRA
+
 .popup-content {
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
 }
+*/
 
 .close {
   position: absolute;
-  top: 15px;
-  right: 35px;
-  font-size: 40px;
+  top: 1%;
+  right: 1.5%;
+  font-size: 3rem;
   font-weight: bold;
   color: #fff;
   cursor: pointer;
@@ -137,7 +139,7 @@ main {
   text-decoration: underline;
   font-family: Libre Baskerville;
   margin-top: 0;
-  padding-top: 15px;
+  padding-top: 0.6%;
 }
 
 * {box-sizing: border-box}
@@ -145,7 +147,7 @@ main {
 img {vertical-align: middle;}
 
 .slideshow-container { /* Slideshow container */
-  max-width: 1000px;
+  max-width: 60%;
   position: relative;
   margin: auto;
   border-style: outset;
@@ -157,11 +159,10 @@ img {vertical-align: middle;}
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
-  margin-top: -22px;
+  padding: 1%;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 2rem;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -178,18 +179,18 @@ img {vertical-align: middle;}
 
 .text { /* Caption text */
   color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
+  font-size: 1rem;
+  padding: 0.6% 0.8%;
   position: absolute;
-  bottom: 8px;
+  bottom: 3%;
   width: 100%;
   text-align: center;
 }
 
 .numbertext { /* Number text (1/3 etc) */
   color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
+  font-size: 0.8rem;
+  padding: 0.6% 0.8%;
   position: absolute;
   top: 0;
 }
@@ -198,7 +199,7 @@ img {vertical-align: middle;}
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 0.2%;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -224,8 +225,8 @@ img {vertical-align: middle;}
 }
 
 .BlogContainerMain{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 0.8%;
+  padding-bottom: 0.8%;
   display: flex;
   align-items: center;
   flex-direction: column; /* Arrange items vertically */
@@ -233,27 +234,27 @@ img {vertical-align: middle;}
 }
 
 .Blog1, .Blog2{
-  margin-top: 15px;
+  margin-top: 0.6%;
   display: flex; /* Use flexbox for layout */
   border-style: ridge;
   border-color: darkred;
-  max-width: 1250px;
-  max-height: 140px;
+  max-width: 50%;
+  max-height: fit-content;
 }
 
 .BlogImage1 {
   flex: 0 0 auto; /* Set image to not grow or shrink */
-  margin-right: 20px; /* Add spacing between image and text */
+  margin: 1%;
 }
 
 .BlogImage2{
   flex: 0 0 auto; /* Set image to not grow or shrink */
-  margin-left: 20px; /* Add spacing between image and text */
+  margin: 1%;
 }
 
 .BlogText {
   flex: 1; /* Text takes up remaining space */
-  padding: 10px;
+  padding: 1%;
 }
 
 .BlogText p {
@@ -267,8 +268,8 @@ img {vertical-align: middle;}
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .BlogContainer{
@@ -281,14 +282,14 @@ img {vertical-align: middle;}
 }
 
 .BlogSection{
-  margin: 50px;
+  margin: 7%;
 }
 
 .BlogIntro{
   background-color: #333;
   max-width: 100%;
   height: min-content;
-  padding-left: 10px;
+  padding-left: 2%;
 
   border-style: groove;
   border-color: darkred;
@@ -302,8 +303,7 @@ img {vertical-align: middle;}
 
 .BlogIntro h1{
   flex: 1; /* Text takes up remaining space */
-  padding: 5px;
-  margin-bottom: 2px;
+  margin-bottom: 0.2%;
 }
 
 .Blog-Timestamp{
@@ -313,7 +313,7 @@ img {vertical-align: middle;}
 }
 
 .BlogMain{
-  margin-top: 30px;
+  margin-top: 5%;
 
   
   max-width: 100%;
@@ -325,7 +325,7 @@ img {vertical-align: middle;}
 }
 
 .BlogMainText{
-  margin: 8px;
+  margin: 1.5%;
 }
 
 .BlogMainText h1{
@@ -343,8 +343,8 @@ img {vertical-align: middle;}
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 1.2%;
+  padding-bottom: 1.2%;
 }
 
 .AboutContainer{
@@ -356,7 +356,7 @@ img {vertical-align: middle;}
 }
 
 .AboutSection{
-  margin: 50px;
+  margin: 7.3%;
 }
 
 .AboutIntro{
@@ -378,16 +378,16 @@ img {vertical-align: middle;}
 
 .AboutIntro img{
   flex: 0 0 auto; /* Set image to not grow or shrink */
-  margin-right: 20px; /* Add spacing between image and text */
+  margin-right: 3.5%; /* Add spacing between image and text */
 }
 
 .AboutIntro h1{
   flex: 1; /* Text takes up remaining space */
-  padding: 5px;
+  padding: 1%;
 }
 
 .AboutMain{
-  margin-top: 30px;
+  margin-top: 5%;
 
   background-color: #333;
   max-width: 100%;
@@ -398,7 +398,7 @@ img {vertical-align: middle;}
 }
 
 .AboutMainText{
-  margin: 8px;
+  margin: 1.4%;
 }
 
 .AboutMainText h1{
@@ -413,8 +413,7 @@ img {vertical-align: middle;}
 /*ZF - Stuff*/
 
 .stuffstuffcontainer{
-  padding: 50px;
-  padding-bottom: 50px;
+  padding: 2%;
 }
 
 .stuffcontainer{
@@ -428,8 +427,8 @@ img {vertical-align: middle;}
 .stuffgridcontainer{
   margin: 0 auto;
   max-width: 90%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 /* CSS styles to define the grid layout */
@@ -442,7 +441,7 @@ img {vertical-align: middle;}
 .grid-itemStuff {
   background-color: #f0f0f0;
   border: 1px solid #ccc;
-  padding: 20px;
+  padding: 4%;
   text-align: center;
   border-style: groove;
   border-color: darkred;
@@ -510,7 +509,7 @@ img {vertical-align: middle;}
 }
 
 .scAccount img, .scAccount1 img, .scAccount2 img{
-  margin-right: 5px; /* Adjust spacing as needed */
+  margin-right: 0.2%; /* Adjust spacing as needed */
 }
 
 .scAccounTxt{
@@ -592,77 +591,3 @@ img {vertical-align: middle;}
   margin-top: 0;
 }
 
-
-
-.BlogBoxTEST{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-
-.BlogContainerTEST{
-  background-color: #808080;
-  max-width: 50%;
-  max-height: fit-content;
-  border-style: ridge;
-  border-color: darkred;
-  padding: 0;
-}
-
-.BlogSectionTEST{
-  margin: 7%;
-}
-
-.BlogIntroTEST{
-  background-color: #333;
-  max-width: 100%;
-  height: min-content;
-  padding-left: 2%;
-
-  border-style: groove;
-  border-color: darkred;
-}
-
-.BlogIntroTitleTEST{
-  font-family: Libre Baskerville;
-  text-decoration: underline;
-  color: white;
-}
-
-.BlogIntroTEST h1{
-  flex: 1; /* Text takes up remaining space */
-  margin-bottom: 0.2%;
-}
-
-.Blog-TimestampTEST{
-  color: darkgray;
-  font-family: Libre Baskerville;
-  font-size: 0.8em;
-}
-
-.BlogMainTEST{
-  margin-top: 5%;
-
-  
-  max-width: 100%;
-  height: 100%;
-
-  border-style: groove;
-  border-color: darkred;
-  background-color: #333;
-}
-
-.BlogMainTextTEST{
-  margin: 1.5%;
-}
-
-.BlogMainTextTEST h1{
-  color: white;
-  text-decoration: underline;
-}
-
-.BlogMainTextTEST p{
-  color: white;
-}
