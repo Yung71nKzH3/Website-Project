@@ -592,3 +592,77 @@ img {vertical-align: middle;}
   margin-top: 0;
 }
 
+
+
+.BlogBoxTEST{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.BlogContainerTEST{
+  background-color: #808080;
+  max-width: 50%;
+  max-height: fit-content;
+  border-style: ridge;
+  border-color: darkred;
+  padding: 0;
+}
+
+.BlogSectionTEST{
+  margin: 7%;
+}
+
+.BlogIntroTEST{
+  background-color: #333;
+  max-width: 100%;
+  height: min-content;
+  padding-left: 2%;
+
+  border-style: groove;
+  border-color: darkred;
+}
+
+.BlogIntroTitleTEST{
+  font-family: Libre Baskerville;
+  text-decoration: underline;
+  color: white;
+}
+
+.BlogIntroTEST h1{
+  flex: 1; /* Text takes up remaining space */
+  margin-bottom: 0.2%;
+}
+
+.Blog-TimestampTEST{
+  color: darkgray;
+  font-family: Libre Baskerville;
+  font-size: 0.8em;
+}
+
+.BlogMainTEST{
+  margin-top: 5%;
+
+  
+  max-width: 100%;
+  height: 100%;
+
+  border-style: groove;
+  border-color: darkred;
+  background-color: #333;
+}
+
+.BlogMainTextTEST{
+  margin: 1.5%;
+}
+
+.BlogMainTextTEST h1{
+  color: white;
+  text-decoration: underline;
+}
+
+.BlogMainTextTEST p{
+  color: white;
+}
