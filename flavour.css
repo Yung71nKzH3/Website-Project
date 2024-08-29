@@ -449,6 +449,11 @@ img {vertical-align: middle;}
   background-color: #333;
 }
 
+.grid-itemStuff a{
+  text-decoration: underline;
+  color: red;
+}
+
 .item p, h1{
   color: white;
   font-family: Libre Baskerville;
