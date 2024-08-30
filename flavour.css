@@ -126,6 +126,14 @@ footer {
   cursor: pointer;
 }
 
+#contactButton{
+  text-decoration: underline;
+}
+
+#contactButton:hover{
+  cursor: pointer;
+}
+
 /*ZF - MAIN - Blog*/
 
 main {
@@ -406,8 +414,12 @@ img {vertical-align: middle;}
   text-decoration: underline;
 }
 
-.AboutMainText p{
+.AboutMainText p,li{
   color: white;
+}
+
+#bold{
+  font-weight: bold;
 }
 
 /*ZF - Stuff*/
