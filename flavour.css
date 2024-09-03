@@ -307,6 +307,7 @@ img {vertical-align: middle;}
   font-family: Libre Baskerville;
   text-decoration: underline;
   color: white;
+  padding-right: 1%;
 }
 
 .BlogIntro h1{
@@ -336,13 +337,18 @@ img {vertical-align: middle;}
   margin: 1.5%;
 }
 
-.BlogMainText h1{
+.BlogMainText h1, h2, h3{
   color: white;
   text-decoration: underline;
 }
 
 .BlogMainText p{
   color: white;
+}
+
+.BlogMainText a{
+  color: red;
+  text-decoration: none;
 }
 
 /*ZF - About*/
