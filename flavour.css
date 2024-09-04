@@ -626,6 +626,62 @@ img {vertical-align: middle;}
   border-color: red;
 }
 
+/*Thank You*/
+
+.tymain{
+  border-style: none;
+}
+
+.tytitle{
+  text-align: center;
+}
+
+.tycontainer{
+  margin: 0 auto;
+  width: 90%;
+  height: 80%;
+  background-color: #808080;
+  border-color: darkred;
+  border-style: ridge;
+}
+
+.brickcontainer{
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.brick{
+  width: fit-content;
+  height: fit-content;
+  background-color: #444;
+  padding: 0.8%;
+  border-color: darkred;
+  border-style: solid;
+}
+
+.brick p{
+  color: white;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+#gal{
+  color: pink;
+}
+
+.backer{
+  text-align: center;
+}
+
+.backer a{
+  color: red;
+}
+
+.backer a:hover{
+  color: darkred;
+}
+
 /*Test*/
 
 .TestTitle{
