@@ -270,6 +270,14 @@ img {vertical-align: middle;}
   font-family: Libre Baskerville;
 }
 
+.BlogLink{
+  color: red;
+}
+
+.BlogLink:hover{
+  color: darkred;
+}
+
 /*ZF - Blog - BlogFormat*/
 
 .BlogBox{
@@ -349,6 +357,14 @@ img {vertical-align: middle;}
 .BlogMainText a{
   color: red;
   text-decoration: none;
+}
+
+.BlogMainText a:hover{
+  color: darkred;
+}
+
+.ender{
+  text-align: center;
 }
 
 /*ZF - About*/
@@ -453,7 +469,7 @@ img {vertical-align: middle;}
 .grid-containerStuff {
   display: grid;
   grid-template-columns: repeat(4, 25%); /* Create 4 equal-width columns */
-  grid-template-rows: repeat(2, 1fr); /* Create 2 equal-height rows */
+  grid-template-rows: repeat(0, 1fr); /*touchy*/
 }
 
 .grid-itemStuff {
@@ -469,6 +485,19 @@ img {vertical-align: middle;}
 .grid-itemStuff a{
   text-decoration: underline;
   color: red;
+}
+
+.grid-itemStuff a:hover{
+  color: darkred;
+}
+
+.item img{
+  border-color: red;
+  border-style: outset;
+}
+
+.item img:hover{
+  border-style: inset;
 }
 
 .item p, h1{
