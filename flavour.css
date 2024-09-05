@@ -329,6 +329,14 @@ img {vertical-align: middle;}
   font-size: 0.8em;
 }
 
+.BlogBack a{
+  color: red;
+}
+
+.BlogBack a:hover{
+  color: darkred;
+}
+
 .BlogMain{
   margin-top: 5%;
 
@@ -442,6 +450,7 @@ img {vertical-align: middle;}
 
 #bold{
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 /*ZF - Stuff*/
@@ -461,8 +470,8 @@ img {vertical-align: middle;}
 .stuffgridcontainer{
   margin: 0 auto;
   max-width: 90%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 /* CSS styles to define the grid layout */
@@ -565,10 +574,15 @@ img {vertical-align: middle;}
   text-decoration: none;
 }
 
-#Mast, #Steam, #Git, #Spot, #Insta1, #Insta2, #X1, #X2, #YT1, #YT2, #AniList{
+#Mast, #Steam, #Git, #Spot, #Insta1, #Insta2, #X1, #X2, #YT1, #YT2, #AniList, #Lett{
   background-repeat: no-repeat;
   background-size: cover;
   border-style: solid;
+}
+
+#Lett{
+  background-image: url("images/Socials/Letterboxd.png");
+  border-color: orange;
 }
 
 #YT1{
