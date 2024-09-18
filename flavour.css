@@ -698,28 +698,8 @@ img {vertical-align: middle;}
 
 /*MCMap*/
 
-.MCMain{
-  border-style: none;
-}
-
-.MCMapContainer{
-  margin: 0 auto;
-  width: 80%;
-  min-height: 100%;
-  overflow: hidden;
-}
-
-.MCMapContainer p{
-  color: white;
-}
-
-.MCMap{
-  transition: transform 0.5s ease;
-}
-
-.MCMap:hover{
-  transform: scale(4);
-  transform-origin: 0 0; /* Adjust the origin point as needed */
+#TopText{
+  font-size: 5rem;
 }
 
 /*Quotes*/
