@@ -450,6 +450,7 @@ img {vertical-align: middle;}
 
 #bold{
   font-weight: bold;
+  color: darkred;
   font-size: 1.2rem;
 }
 
@@ -698,11 +699,28 @@ img {vertical-align: middle;}
 
 /*MCMap*/
 
+#MCMain{
+  border: none;
+}
+
 #TopText{
-  font-size: 5rem;
+  font-size: 4rem;
+}
+
+#Backest{
+  color: darkred;
 }
 
 /*Quotes*/
+
+.QuoteTitle{
+  text-align: center;
+}
+
+.QuoteTitle h1{
+  margin-top: 0;
+  padding-top: 0.5%;
+}
 
 .BoxOfQuoteBox{
   max-width: 100%;
@@ -737,12 +755,21 @@ img {vertical-align: middle;}
 }
 
 .Quote p{
-  color: white;
+  color: gray;
   font-family: Libre Baskerville;
 }
 
 .Quote blockquote{
+  color: white;
+  font-family: Libre Baskerville;
+}
 
+#Backestest{
+  text-align: center;
+}
+
+#Backestest a{
+  color: darkred;
 }
 
 /*Test*/
