@@ -704,7 +704,11 @@ img {vertical-align: middle;}
 }
 
 #TopText{
-  font-size: 4rem;
+  font-size: 3rem;
+}
+
+.MCMapText{
+  color: white;
 }
 
 #Backest{
@@ -766,6 +770,8 @@ img {vertical-align: middle;}
 
 #Backestest{
   text-align: center;
+  margin: 0;
+  padding-bottom: 1%;
 }
 
 #Backestest a{
