@@ -778,6 +778,21 @@ img {vertical-align: middle;}
   color: darkred;
 }
 
+/*Uni*/
+
+.UoPLogo{
+  display: block;
+  margin: 0 auto;
+}
+
+.UoPHead{
+  color: white;
+  text-align: center;
+  font-family: Libre Baskerville;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /*Test*/
 
 .TestTitle{
