@@ -793,6 +793,21 @@ img {vertical-align: middle;}
   margin-bottom: 0;
 }
 
+.UoPText{
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0; 
+}
+
+.UoPText a {
+  color: red;
+}
+
+.UoPText a:hover{
+  color: darkred;
+}
+
 /*Test*/
 
 .TestTitle{
