@@ -808,6 +808,13 @@ img {vertical-align: middle;}
   color: darkred;
 }
 
+.StatusExp{
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0; 
+}
+
 /*Test*/
 
 .TestTitle{
