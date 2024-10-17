@@ -93,47 +93,6 @@ footer {
   cursor: pointer; /* Change cursor to indicate clickability */
 }
 
-.popup {
-  display: none; /* Initially hidden */
-  position: fixed; /* Positioned relative to the viewport */
-  z-index: 1; /* Ensure it appears on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* EXTRA
-
-.popup-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-}
-*/
-
-.close {
-  position: absolute;
-  top: 1%;
-  right: 1.5%;
-  font-size: 3rem;
-  font-weight: bold;
-  color: #fff;
-  cursor: pointer;
-}
-
-#contactButton{
-  text-decoration: underline;
-}
-
-#contactButton:hover{
-  cursor: pointer;
-}
-
 /*ZF - MAIN - Blog*/
 
 main {
@@ -813,6 +772,13 @@ img {vertical-align: middle;}
   text-align: center;
   margin-top: 0;
   margin-bottom: 0; 
+}
+
+/*Contact*/
+
+.contacter{
+  display: block;
+  margin: 0 auto;
 }
 
 /*Test*/
